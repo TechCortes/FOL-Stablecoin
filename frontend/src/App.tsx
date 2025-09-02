@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext.js';
 import { ProtectedRoute } from './components/ProtectedRoute.js';
@@ -8,6 +7,8 @@ import { RegisterPage } from './pages/RegisterPage.js';
 import { DashboardPage } from './pages/DashboardPage.js';
 
 function App() {
+  console.log('App component rendering...');
+  
   return (
     <AuthProvider>
       <Router>

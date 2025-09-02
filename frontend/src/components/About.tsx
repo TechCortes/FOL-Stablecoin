@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card.js';
 
 export function About() {
   return (

@@ -18,20 +18,26 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   React.useEffect(() => {
     async function checkAuth() {
-      const token = localStorage.getItem('auth_token');
-      if (token) {
-        try {
-          const userData = await apiClient.verifyToken(token);
-          if (userData) {
-            setUser(userData);
-          } else {
+      try {
+        const token = localStorage.getItem('auth_token');
+        if (token) {
+          try {
+            const userData = await apiClient.verifyToken(token);
+            if (userData && typeof userData === 'object' && 'id' in userData) {
+              setUser(userData as User);
+            } else {
+              localStorage.removeItem('auth_token');
+            }
+          } catch (error) {
+            console.warn('Token verification failed:', error);
             localStorage.removeItem('auth_token');
           }
-        } catch (error) {
-          localStorage.removeItem('auth_token');
         }
+      } catch (error) {
+        console.warn('Auth check failed:', error);
+      } finally {
+        setIsLoading(false);
       }
-      setIsLoading(false);
     }
 
     checkAuth();

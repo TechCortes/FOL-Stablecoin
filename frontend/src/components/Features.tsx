@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card.js';
 import { Shield, DollarSign, Users, Zap, CheckCircle, CreditCard } from 'lucide-react';
 
 const features = [

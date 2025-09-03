@@ -1,4 +1,4 @@
-# FOL Capital - Institutional-Grade stablecoin solution for high unemployment rate due to AI and workforce development.
+# FOL Capital - Institutional-Grade stablecoin solution for high unemployment rate due to AI and improving workforce development.
 
 A modern, professional platform for institutional stablecoin services built with React, TypeScript, and Express.
 

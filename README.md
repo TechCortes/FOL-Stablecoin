@@ -1,8 +1,8 @@
-# FOL Capital - Institutional-Grade Stablecoin Solutions
+# FOL Capital - Institutional-Grade stablecoin solution for high unemployment rate due to AI and workforce development.
 
 A modern, professional platform for institutional stablecoin services built with React, TypeScript, and Express.
 
-## 🏗️ Architecture
+# Architecture
 
 ```
 FOL-Clean/
@@ -12,7 +12,7 @@ FOL-Clean/
 └── package.json      # Workspace management
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js >= 18.0.0
@@ -42,7 +42,7 @@ npm run build
 npm start
 ```
 
-## 🛠️ Development
+## Development
 
 ### Frontend (Port 3000)
 - **React 18** with TypeScript
@@ -64,7 +64,7 @@ npm run lint         # Lint all workspaces
 npm run type-check   # TypeScript validation
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ### Frontend (`/frontend`)
 ```
@@ -90,16 +90,16 @@ src/
 └── config/         # Configuration
 ```
 
-## 🎯 Key Features
+## Key Features
 
-- 🏦 **Institutional Focus** - Built for enterprise clients
-- 🔐 **Secure Authentication** - JWT-based auth system
-- 📱 **Responsive Design** - Works on all devices
-- ⚡ **Fast Development** - Hot reload, TypeScript, modern tooling
-- 🧪 **Type Safety** - Full TypeScript coverage
-- 🎨 **Modern UI** - shadcn/ui components with Tailwind CSS
+- **Institutional Focus** - Built for enterprise clients
+- **Secure Authentication** - JWT-based auth system
+- **Responsive Design** - Works on all devices
+- **Fast Development** - Hot reload, TypeScript, modern tooling
+- **Type Safety** - Full TypeScript coverage
+- **Modern UI** - shadcn/ui components with Tailwind CSS
 
-## 👨‍💻 Author
+## Author
 
 **Jorge Cortes** - Institutional Finance Platform
 
